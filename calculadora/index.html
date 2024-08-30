@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = container-soma>
+    <h1 class="titulo">Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> 
+    <input type="number" name="txtn2" id="txtn2">
+    <input class="btn" type="button" value="somar" onclick="somar()">
+    <div class="res" id="res-soma"></div>
+    </div>
+    <div class = container-subtracao>
+    <h1 class="titulo">Subtraindo Valores</h1>
+    <input type="number" name="txtn1" id="teste1"> 
+    <input type="number" name="txtn2" id="teste2">
+    <input class="btn" type="button" value="subtrair" onclick="subtrair()">
+    <div class="res" id="res-subtracao"></div>
+    </div>
+    
+    <div class = container-multiplicacao>
+    <h1 class="titulo">Multiplicando Valores</h1>
+    <input type="number" name="txtn1" id="teste3"> 
+    <input type="number" name="txtn2" id="teste4">
+    <input class="btn" type="button" value="multiplicar" onclick="multiplicar()">
+    <div class="res" id="res-multiplicacao"></div>
+    </div>
+</div>
+    <div class = container-divisão>
+    <h1 class="titulo">Dividindo Valores</h1>
+    <input type="number" name="txtn1" id="teste5"> 
+    <input type="number" name="txtn2" id="teste6">
+    <input class="btn" type="button" value="Dividir" onclick="divisao()">
+    <div class="res" id="res-divisao"></div>
+</div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
