@@ -1,36 +1,36 @@
 body {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-background-color: yellowgreen
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    background-image: url('./imagem/calculadora-um-plano-de-fundo_16643-2998.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.btn {
-padding: 1rem;
-font-size: 1rem;
-border: none;
-border-radius: 2rem;
-font-weight: 600;
+.containergeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background: #696969;
+    border-radius: 10px;
 }
 .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:black
-}
-.btn {
-padding: 1rem;
-font-size: 1rem;
-border: none;
-border-radius: 2rem;
-font-weight: 600;
-}
+    color:white;
+    font-size: 25px;
+   }
 .btn:hover{
-    background-color: gray;
+    background-color: #adff2f;
     color: white;
+    box-shadow: 10px 5px 5px black;
 }
 input {
 padding: 1rem;
@@ -38,4 +38,16 @@ font-size: 1rem;
 border: 1px solid black;
 border-radius: 2rem;
 font-weight: 600;
+}
+.res {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7FFF00
+}
+.op-icon {
+    font-size: 2rem; 
+    color: white; 
+    margin: 1rem;
 }

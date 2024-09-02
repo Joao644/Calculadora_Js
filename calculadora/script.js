@@ -5,7 +5,7 @@ function somar() {
     var n1 = Number(tn1.value);
     var n2 = Number(tn2.value);
     var s = n1 + n2;
-    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`;
 }
 
 function subtrair() {
@@ -15,7 +15,7 @@ function subtrair() {
     var n1 = Number(tn1.value);
     var n2 = Number(tn2.value);
     var s = n1 - n2;
-    res.innerHTML = `A subtração entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+    res.innerHTML = `A subtração entre ${n1} e ${n2} é igual a ${s}`;
 }
 
 function multiplicar() {
@@ -25,7 +25,7 @@ function multiplicar() {
     var n1 = Number(tn1.value);
     var n2 = Number(tn2.value);
     var s = n1 * n2;
-    res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+    res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a ${s}`;
 }
 
 function divisao() {
@@ -35,5 +35,5 @@ function divisao() {
     var n1 = Number(tn1.value);
     var n2 = Number(tn2.value);
     var s = n1 / n2;
-    res.innerHTML = `A divisão entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+    res.innerHTML = `A divisão entre ${n1} e ${n2} é igual a ${s}`;
 }
